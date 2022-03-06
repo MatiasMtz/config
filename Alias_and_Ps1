@@ -1,4 +1,0 @@
-alias gitt="sh ~/Script-push-to-Git/git.sh"
-alias t="./o.out"
-
-PS1="\e[1;36m[\u@\h \W]\$ \e[m "

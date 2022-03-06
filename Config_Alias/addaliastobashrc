@@ -1,0 +1,11 @@
+#!/bin/bash
+# Alias to add, commit and push to GitHub with "gitt".
+echo "alias gitt=\"sh ~/Script-push-to-Git/git.sh\"" | tee -a ~/.bashrc > /dev/null
+# Alias to test last gcc compiled program.
+echo "alias t=\"./a.out\"" | tee -a ~/.bashrc > /dev/null
+# Adds a blankline.
+echo -e | tee -a ~/.bashrc > /dev/null
+# PS1 format and color design.
+echo "PS1=\"\e[1;36m[\u@\h \W]\$ \e[m \"" | tee -a ~/.bashrc > /dev/null
+# Refresh to bashrc to apply changes
+source ~/.bashrc
