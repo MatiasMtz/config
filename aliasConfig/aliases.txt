@@ -1,0 +1,8 @@
+# Add, commit and push alias #
+alias gitt="sh <PATH>"
+
+# Execute ./a.out with t #
+alias t="./a.out"
+
+# REFRESH BASHRC #
+source ~/.bashrc
